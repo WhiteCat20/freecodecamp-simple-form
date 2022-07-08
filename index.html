@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <title>newestProject Survey Form</title>
+</head>
+
+<body>
+    <h1 id="title" class="mt-4">newestProject Survey Form</h1>
+    <div class="explanation mb-3">
+        <p id="description">i created this form to get the certificate</p>
+    </div>
+    <div class="form-card">
+        <form action="" id="survey-form">
+            <div class="form-list first">
+                <label for="name" id="name-label">Name</label> <br>
+                <input placeholder="Input your name here please.." type="text" class="mgn" name="" id="name" required>
+            </div>
+            <div class="form-list">
+                <label for="email" id="email-label">Email</label> <br>
+                <input placeholder="Input your email here please.." type="email" class="mgn" name="" id="email" required>
+            </div>
+            <div class="form-list">
+                <label for="age" id="number-label">Age</label> <br>
+                <input placeholder="Input your age here please.." type="number" class="mgn" name="" id="number" min="18" max="65">
+            </div>
+            <div class="form-list">
+                <label for="age" id="number-label">Major</label> <br>
+                <select name="" id="dropdown" class="mgn">
+                  <option value="">Engineering</option>
+                  <option value="">Medicine</option>
+                  <option value="">International Relations</option>
+                </select>
+            </div>
+            <div class="form-list">
+                <label for="">Why did u choose us?</label><br>
+                <input type="radio" value="Big Name" name="user-reason">Because we have a big name <br>
+                <input type="radio" value="By Friend" name="user-reason">Recommended by a friend <br>
+                <input type="radio" value="Getting Opportunity" name="user-reason">I think i will get an opportunity
+            </div>
+            <div class="form-list">
+                <label for="">Which social media do you have?</label><br>
+                <input type="checkbox" name="user-progress" value="Instagram">Instagram<br>
+                <input type="checkbox" name="user-progress" value="Twitter">Twitter<br>
+                <input type="checkbox" name="user-progress" value="Snapchat">Snapchat
+            </div>
+            <div class="form-list">
+                <label for="comment">Comments for our newest project</label>
+                <textarea style="width: 100%;" id="" cols="50" rows="10"></textarea>
+            </div>
+            <div class="form-list buttonWrap"><button type="submit" id="submit">Submit!</button></div>
+        </form>
+
+    </div>
+</body>
+
+</html>
